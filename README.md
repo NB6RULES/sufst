@@ -1,0 +1,62 @@
+# SUFST repositories (snapshot)
+
+Latest default-branch snapshots of all 54 public repositories from https://github.com/sufst, copied 2026-11-20. Git history is not included.
+
+- The org's `.github` repo is stored as `dot-github/`.
+- Submodules are not included (empty folders).
+- `DV.Sim` Git LFS files are replaced by `.lfs-pointer.txt` notes (original `.gitattributes` saved as `.gitattributes.lfs-original`).
+
+- [`ams-testbed`](ams-testbed/) — source: https://github.com/sufst/ams-testbed
+- [`Torque-Vectoring`](Torque-Vectoring/) — source: https://github.com/sufst/Torque-Vectoring
+- [`Traction-Control`](Traction-Control/) — source: https://github.com/sufst/Traction-Control
+- [`ams-embedded`](ams-embedded/) — source: https://github.com/sufst/ams-embedded
+- [`daq-pi`](daq-pi/) — source: https://github.com/sufst/daq-pi
+- [`daq-unit`](daq-unit/) — source: https://github.com/sufst/daq-unit
+- [`dash-GUI`](dash-GUI/) — source: https://github.com/sufst/dash-GUI
+- [`wireless-telemetry-gui`](wireless-telemetry-gui/) — source: https://github.com/sufst/wireless-telemetry-gui
+- [`intermediate-server`](intermediate-server/) — source: https://github.com/sufst/intermediate-server
+- [`documentation`](documentation/) — source: https://github.com/sufst/documentation
+- [`back-end`](back-end/) — source: https://github.com/sufst/back-end
+- [`rules-extraction`](rules-extraction/) — source: https://github.com/sufst/rules-extraction
+- [`precharge`](precharge/) — source: https://github.com/sufst/precharge
+- [`kicad-library`](kicad-library/) — source: https://github.com/sufst/kicad-library
+- [`Aero-Visual-Delta`](Aero-Visual-Delta/) — source: https://github.com/sufst/Aero-Visual-Delta
+- [`vcu`](vcu/) — source: https://github.com/sufst/vcu
+- [`xbee_ansic_library`](xbee_ansic_library/) — source: https://github.com/sufst/xbee_ansic_library
+- [`mkr-test`](mkr-test/) — source: https://github.com/sufst/mkr-test
+- [`BackendStack-Docker`](BackendStack-Docker/) — source: https://github.com/sufst/BackendStack-Docker
+- [`tsal`](tsal/) — source: https://github.com/sufst/tsal
+- [`vcu-gui`](vcu-gui/) — source: https://github.com/sufst/vcu-gui
+- [`dot-github`](dot-github/) — source: https://github.com/sufst/.github
+- [`pcb`](pcb/) — source: https://github.com/sufst/pcb
+- [`on-car-telemetry`](on-car-telemetry/) — source: https://github.com/sufst/on-car-telemetry
+- [`can-test-rig`](can-test-rig/) — source: https://github.com/sufst/can-test-rig
+- [`can-defs`](can-defs/) — source: https://github.com/sufst/can-defs
+- [`candapter-driver`](candapter-driver/) — source: https://github.com/sufst/candapter-driver
+- [`rtcan`](rtcan/) — source: https://github.com/sufst/rtcan
+- [`old-old-dash`](old-old-dash/) — source: https://github.com/sufst/old-old-dash
+- [`Loom`](Loom/) — source: https://github.com/sufst/Loom
+- [`c-workshop`](c-workshop/) — source: https://github.com/sufst/c-workshop
+- [`driverless-pathfinding`](driverless-pathfinding/) — source: https://github.com/sufst/driverless-pathfinding
+- [`lv-bms`](lv-bms/) — source: https://github.com/sufst/lv-bms
+- [`tem-firmware`](tem-firmware/) — source: https://github.com/sufst/tem-firmware
+- [`tem-gui`](tem-gui/) — source: https://github.com/sufst/tem-gui
+- [`can-isolator`](can-isolator/) — source: https://github.com/sufst/can-isolator
+- [`ipg-car-model`](ipg-car-model/) — source: https://github.com/sufst/ipg-car-model
+- [`can-node-firmware`](can-node-firmware/) — source: https://github.com/sufst/can-node-firmware
+- [`dash-firmware-STAG11`](dash-firmware-STAG11/) — source: https://github.com/sufst/dash-firmware-STAG11
+- [`SUFST-scripts`](SUFST-scripts/) — source: https://github.com/sufst/SUFST-scripts
+- [`dash-firmware-STAG12`](dash-firmware-STAG12/) — source: https://github.com/sufst/dash-firmware-STAG12
+- [`pcb-training`](pcb-training/) — source: https://github.com/sufst/pcb-training
+- [`vcu-config-gui`](vcu-config-gui/) — source: https://github.com/sufst/vcu-config-gui
+- [`SimRacingScripts`](SimRacingScripts/) — source: https://github.com/sufst/SimRacingScripts
+- [`can-repeater-firmware`](can-repeater-firmware/) — source: https://github.com/sufst/can-repeater-firmware
+- [`dyno-graph-tool`](dyno-graph-tool/) — source: https://github.com/sufst/dyno-graph-tool
+- [`bootloaders`](bootloaders/) — source: https://github.com/sufst/bootloaders
+- [`sensor-hub-firmware`](sensor-hub-firmware/) — source: https://github.com/sufst/sensor-hub-firmware
+- [`DV.ConeDetection`](DV.ConeDetection/) — source: https://github.com/sufst/DV.ConeDetection
+- [`DV.Sim`](DV.Sim/) — source: https://github.com/sufst/DV.Sim
+- [`BMS-Firmware`](BMS-Firmware/) — source: https://github.com/sufst/BMS-Firmware
+- [`vcu-stag13`](vcu-stag13/) — source: https://github.com/sufst/vcu-stag13
+- [`dash-firmware-STAG13`](dash-firmware-STAG13/) — source: https://github.com/sufst/dash-firmware-STAG13
+- [`DIU-Firmware`](DIU-Firmware/) — source: https://github.com/sufst/DIU-Firmware

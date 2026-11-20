@@ -1,0 +1,5 @@
+Git LFS file not copied. Original: https://github.com/sufst/DV.Sim/blob/main/FSOnline/Binaries/Win64/Blocks.exe
+Original LFS pointer (indented):
+    version https://git-lfs.github.com/spec/v1
+    oid sha256:a63bbdd5506fb53e89e30fccb37766352acbd69fbecf5a5321916653cdfd4d77
+    size 165804544

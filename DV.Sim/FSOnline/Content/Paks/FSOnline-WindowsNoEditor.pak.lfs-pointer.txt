@@ -1,0 +1,5 @@
+Git LFS file not copied. Original: https://github.com/sufst/DV.Sim/blob/main/FSOnline/Content/Paks/FSOnline-WindowsNoEditor.pak
+Original LFS pointer (indented):
+    version https://git-lfs.github.com/spec/v1
+    oid sha256:d8d9e5f0f4665e803990b15baea0da0195ca1b73f67435171927e48ecfec97a2
+    size 474173246
