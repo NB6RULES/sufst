@@ -1,0 +1,157 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "toolchainFile": "${sourceDir}/cmake/gcc-arm-none-eabi.cmake",
+            "cacheVariables": {}
+        },
+        {
+            "name": "Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "back-Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "SENSOR_HUB_CONFIG": "back"
+            }
+        },
+        {
+            "name": "back-Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "SENSOR_HUB_CONFIG": "back"
+            }
+        },
+        {
+            "name": "dash-Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "SENSOR_HUB_CONFIG": "dash"
+            }
+        },
+        {
+            "name": "default-Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "SENSOR_HUB_CONFIG": "default"
+            }
+        },
+        {
+            "name": "pedalbox-Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "SENSOR_HUB_CONFIG": "pedalbox"
+            }
+        },
+        {
+            "name": "dash-Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "SENSOR_HUB_CONFIG": "dash"
+            }
+        },
+        {
+            "name": "default-Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "SENSOR_HUB_CONFIG": "default"
+            }
+        },
+        {
+            "name": "lvbox-Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "SENSOR_HUB_CONFIG": "lvbox"
+            }
+        },
+        {
+            "name": "pedalbox-Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "SENSOR_HUB_CONFIG": "pedalbox"
+            }
+        },
+        {
+            "name": "rearbox-Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "SENSOR_HUB_CONFIG": "rearbox"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Debug",
+            "configurePreset": "Debug"
+        },
+        {
+            "name": "Release",
+            "configurePreset": "Release"
+        },
+        {
+            "name": "back-Release",
+            "configurePreset": "back-Release"
+        },
+        {
+            "name": "back-Debug",
+            "configurePreset": "back-Debug"
+        },
+        {
+            "name": "dash-Debug",
+            "configurePreset": "dash-Debug"
+        },
+        {
+            "name": "default-Debug",
+            "configurePreset": "default-Debug"
+        },
+        {
+            "name": "pedalbox-Debug",
+            "configurePreset": "pedalbox-Debug"
+        },
+        {
+            "name": "dash-Release",
+            "configurePreset": "dash-Release"
+        },
+        {
+            "name": "default-Release",
+            "configurePreset": "default-Release"
+        },
+        {
+            "name": "lvbox-Release",
+            "configurePreset": "lvbox-Release"
+        },
+        {
+            "name": "pedalbox-Release",
+            "configurePreset": "pedalbox-Release"
+        },
+        {
+            "name": "rearbox-Release",
+            "configurePreset": "rearbox-Release"
+        }
+    ]
+}

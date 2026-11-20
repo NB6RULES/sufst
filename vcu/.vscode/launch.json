@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    // debug with stutil
+    {
+      "cwd": "${workspaceFolder}",
+      "name": "debug (stutil)",
+      "executable": "build/debug/VCU.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "showDevDebugOutput": "none",
+      "servertype": "stutil",
+      "svdFile": "debug/STM32F7x6.svd",
+      "preLaunchTask": "build (DEBUG)"
+    },
+
+    // debug with openocd
+    {
+      "cwd": "${workspaceFolder}",
+      "executable": "build/debug/VCU.elf",
+      "name": "debug (openocd)",
+      "request": "launch",
+      "type": "cortex-debug",
+      "showDevDebugOutput": "none",
+      "servertype": "openocd",
+      "preLaunchTask": "build (DEBUG)",
+      "configFiles": ["interface/stlink.cfg", "target/stm32f7x.cfg"]
+    }
+  ]
+}
