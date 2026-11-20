@@ -1,0 +1,4 @@
+# fabrication files should be zipped
+*.gbr
+*.gbrjob
+*.drl
