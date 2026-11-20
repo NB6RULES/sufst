@@ -1,0 +1,45 @@
+name: PyInstaller
+on: 
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Bump Version
+        default: v0.9.0
+        required: true
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    
+    env:
+      ZIP_NAME: sufst-intermediate-server-${{ github.event.inputs.version }}.zip
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install wheel
+        python -m pip install -r requirements.txt
+        pip install pyinstaller
+    - name: build with pyinstaller
+      run: |
+        pyinstaller src/intermediate_server.py --distpath output/windows --add-data "config.xml;./"
+    - name: Zip files
+      uses: papeloto/action-zip@v1
+      with:
+        files: output/windows/
+        dest: ${{ env.ZIP_NAME }}
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ${{ env.ZIP_NAME }}
+        asset_name: ${{ env.ZIP_NAME }}
+        tag: ${{ github.event.inputs.version }}
+        overwrite: true
+        body: "Latest release of the SUFST intermediate server."
